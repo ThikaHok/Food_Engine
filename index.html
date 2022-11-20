@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css">
+    <title>Search for Food</title>
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="header">
+        <img src="omnifood-logo.png" class="logo" alt="Omnifood logo">
+        <nav class="main-nav">
+            <input type="text" class="search-control"
+            placeholder="Enter an ingredient" id="search-input">
+            <button type="submit" class="search-btn btn" id="search-btn">
+                <i class="fas fa-search"></i>
+            </button>
+        </nav>
+    </header>
+    <section class="search-result">
+        <div class="meal-result">
+            <h2 class="title">Your Search Results:</h2>
+            <div id="meal">
+
+            </div>
+        </div>
+
+    </section>
+    
+    <script src="script.js"></script>
+</body>
+</html>

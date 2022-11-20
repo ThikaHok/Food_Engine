@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Rubik", sans-serif;
+    line-height: 1;
+    font-weight: 400;
+    color: #555;
+}
+
+/* HEADER */
+
+.header {
+    display: flex;
+    align-items: center;
+    background-color: rgb(171, 171, 171);
+    height: 9.6rem;
+    padding: 0 4.6rem;
+    gap: 20rem
+}
+
+.logo {
+    height: 2.2rem;
+} 
+
+.main-nav {
+    display: flex;
+    flex-grow: 0.6;
+}
+
+/* NAVIGATION BAR */
+
+.btn {
+    font-family: inherit;
+    cursor: pointer;
+    outline: 0;
+    font-size: 1rem;
+}
+
+.search-control,
+.search-btn {
+    width: 100%;
+}
+
+
+.search-control {
+    padding: 0 1rem;
+    font-size: 1.8rem;
+    font-family: inherit;
+    outline: 0;
+    border: 1px solid green;
+    color: green;
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+}
+
+.search-control::placeholder {
+    color: green;
+}
+
+.search-btn {
+    width: 35px;
+    height: 35px;
+    font-size: 1.6rem;
+    background: green;
+    color: #fff;
+    border: none;
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    transition: all 0.4s linear;
+    -webkit-transition: all 0.4s linear;
+    -moz-transition: all 0.4s linear;
+    -ms-transition: all 0.4s linear;
+    -o-transition: all 0.4s linear;
+}
+
+.search-btn:hover {
+    background: darkgreen;
+}
